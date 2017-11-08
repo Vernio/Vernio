@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+}
+
+.container {
+	background-color: white;
+	height: 30rem;
+	width: 70rem;
+	margin: 3rem auto;
+	position: relative;
+}
+.hero-content {
+	/*width: 70rem;
+	margin: 3rem auto;*/
+}
+.visual-manifesto {
+	width: 22rem;
+	position: absolute;
+	right: 26rem;
+	top: 13rem;
+}
+.hello-messege {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5rem;
+	display: inline-block;
+	color: #4A4A4A;
+
+}
+.pw-name {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.04rem;
+	margin: -0.7rem 0;
+	color: #4A4A4A;
+}
+nav {
+	
+	font-family: 'Lato', sans-serif;
+	right: 0;
+	color: #68C1C3
+}
+ul {
+	position: absolute;
+	right: 1rem;
+	top: -0.7rem;
+	
+}
+li {
+	/*position: absolute;*/
+	display: inline-block;
+	text-decoration: none;
+	padding: 1rem;
+}
+/*.about-timeline {*/
+	height: 40rem;
+
+}
+.info {
+	margin: 3rem auto;
+	position: relative;
+	}
+
+.colapse-info {
+	height: 5rm;
+
+}
+
+
+.container-about-timeline {
+	width: 70rem;
+	margin: 0rem auto;
+}
+.container-about-timeline-bg {
+	overflow: hidden;
+	position: relative;
+}
+/*#about-toggle-button {*/
+
+/*}*/
+
+#about-toggle-button {
+	position: absolute;
+	z-index: 1;
+	font-family:'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #4A4A4A;
+	background: none;
+	border: none;
+	margin-top:1.5rem;
+	cursor: pointer;
+	padding-left: 0;
+}
+
+
+.about-contend-accordeon {
+	display: inline-block;
+    position: absolute;
+    background-color: #F59678;
+    height: 40rem;
+    width: 60%;
+    opacity: 1;
+  
+  	transition-property: height, opacity;
+  	transition-duration: 400ms;
+  	transition-timing-function: ease-in-out;
+
+}
+.about-contend-accordeon.closed {
+	display: inline-block;
+    position: absolute;
+    background-color: #F59678;
+    height: 5rem;
+    width: 60%;
+
+}
+
+
+/*.about-title-text {*/
+	/*z-index: 1;*/
+/*}*/
+.timeline-content-accordeon {
+	display: inline-block;
+	float: right;
+	background-color: #68C1C3;
+	height: 40rem;
+	width: 40%;
+
+	opacity: 1;
+  
+  	transition-property: height, opacity;
+  	transition-duration: 400ms;
+  	transition-timing-function: ease-in-out;
+}
+
+.timeline-content-accordeon.closed {
+	display: inline-block;
+	float: right;
+	background-color: #68C1C3;
+	height: 5rem;
+	width: 40%;
+}
+.timline-title-text {
+	position: absolute;
+	z-index: 1;
+	font-family:'Lato', sans-serif;
+	font-weight: 700;
+	color: #4A4A4A;
+	margin-top:1.5rem;
+	padding: 0 3rem 0;
+}
+.clear {
+  clear: both;
+  }
+.portfolio {
+	background-color: #EBEBEB;
+	height: 50rem;
+}
+.container-portfolio {
+	height: 35rem;
+	width: 70rem;
+	margin: 0rem auto;
+}
+.portfolio-title-text {
+	font-family:'Lato', sans-serif;
+	font-weight: 700;
+	color: #4A4A4A;
+	margin: 0;
+	padding: 20px 0;
+
+}
+footer {
+	background-image: url(../img/stars.png);
+	height: 15rem;
+	/*position: fixed;*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100rem;
+
+}

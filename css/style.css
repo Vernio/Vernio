@@ -15,9 +15,17 @@ body {
 }
 .visual-manifesto {
 	width: 22rem;
+	height: auto;
 	position: absolute;
 	right: 26rem;
 	top: 13rem;
+}
+.lightning:hover {
+	fill:#97EDEF;
+	transition-property: fill;
+  	transition-duration: 800ms;
+  	transition-timing-function: ease-in-out;
+
 }
 .hello-messege {
 	font-family: 'Lato', sans-serif;
@@ -163,6 +171,12 @@ li {
 	margin-left: 3rem;
 	flex-basis: 65%;
 }
+.element-big-two {
+	background-color: #E1E1E1;
+	flex-basis: 100%;
+	height: 28rem;
+	margin-top: 3rem;
+}
 .medium-element-two {
 	background-color:#E1E1E1;
 	height: 28rem;
@@ -207,17 +221,52 @@ footer {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100rem;
+
+	display: flex;
+	flex-flow: row nowrap;
+	color: white;
+	justify-content: space-between;
 }
 .all-rights {
 	color: white;
 	font-family:'Lato', sans-serif;
 	margin-top: 0;
 	margin-left: 9.9rem;
-	padding-top: 7rem;
+	align-self: flex-start;
+	margin-top: 7rem;
+	
 }
-.links-footer > *{
+.links-footer{
 	color: white;
-	display: flex;
+	
 }
 
+.linkdin {
+	margin-top: 7rem;
+	margin-left: 34rem;
+	font-family:'Lato', sans-serif;
+	justify-content: flex-end;
+}
+.linkedin-a {
+	text-decoration: none;
+	color: white;
+}
+.dribble {
+	margin-top: 7rem;
+	font-family:'Lato', sans-serif;
+}
+.dribble-a {
+	text-decoration: none;
+	color: white;
+}
+.insta {
+	margin-top: 7rem;
+	margin-right: 10rem;
+	font-family:'Lato', sans-serif;
+}
+.insta-a {
+	text-decoration: none;
+	color: white;
+
+}
 

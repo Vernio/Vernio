@@ -14,7 +14,7 @@ body {
 	margin: 3rem auto;*/
 }
 .visual-manifesto {
-	width: 22rem;
+	width: 30%;
 	height: auto;
 	position: absolute;
 	right: 26rem;
@@ -49,7 +49,7 @@ nav {
 }
 ul {
 	position: absolute;
-	right: 1rem;
+	right: 0.5rem;
 	top: -0.7rem;
 	
 }
@@ -128,6 +128,7 @@ li {
 	margin-top: 3rem;
 	margin-left: 3rem;
 	align-self: flex-start;
+	display: none;
 }
 
 
@@ -139,7 +140,7 @@ li {
 	margin: 0rem auto;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content: space-between;
 }
 .portfolio-title-text {
 	font-family:'Lato', sans-serif;
@@ -150,19 +151,24 @@ li {
 	margin-left: 9.5rem;
 
 }
-.options-element-big {
-	background-color: #E1E1E1;
+.codi-element-big {
 	flex-basis: 100%;
 	height: 28rem;
 	margin-top: 3rem;
-	
+}
+.codi-element-big img {
+	width: 100%; 
+	height: auto;
 }
 .small-element {
-	background-color: #E1E1E1;
 	height: 28rem;
 	margin-top: 3rem;
 	flex-basis: 30%;
 	
+}
+.small-element img{
+	width: 100%; 
+	height: auto;
 }
 .medium-element {
 	background-color:#E1E1E1;
@@ -214,6 +220,12 @@ li {
 	flex-basis: 30%;
 	margin-bottom: 3rem;
 }
+
+.codiscreenmain {
+	width: 1124;
+	height: auto;
+}
+
 footer {
 	background-image: url(../img/stars.png);
 	height: 15rem;
@@ -269,4 +281,5 @@ footer {
 	color: white;
 
 }
+	
 

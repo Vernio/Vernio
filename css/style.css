@@ -83,7 +83,7 @@ li {
 	font-weight: 700;
 	font-size: 24px;
 	color: #4A4A4A;
-	margin-top: 3rem;
+	margin-top: 3.2rem;
 	margin-left: 9.5rem;
 
 }
@@ -118,7 +118,7 @@ li {
 .timline-title-text {
 	font-family:'Lato', sans-serif;
 	color: #4A4A4A;
-	margin-top: 3rem;
+	margin-top: 3.2rem;
 	margin-left: 3rem;
 
 }
@@ -170,6 +170,12 @@ li {
 	width: 100%; 
 	height: auto;
 }
+
+.medium-element img {
+	width: 100%; 
+	height: auto;
+}
+
 .medium-element {
 	background-color:#E1E1E1;
 	height: 28rem;
@@ -178,16 +184,29 @@ li {
 	flex-basis: 65%;
 }
 .element-big-two {
-	background-color: #E1E1E1;
+	/*background-color: #E1E1E1;*/
 	flex-basis: 100%;
 	height: 28rem;
 	margin-top: 3rem;
+}
+
+.element-big-two img {
+	width: 100%; 
+	height: auto;
+
 }
 .medium-element-two {
 	background-color:#E1E1E1;
 	height: 28rem;
 	margin-top:3rem;
 	flex-basis: 65%;
+
+}
+.element-big-tree {
+	background-color:#E1E1E1;
+	flex-basis: 100%;
+	height: 28rem;
+	margin-top: 3rem;
 
 }
 .small-element-two {

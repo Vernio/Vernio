@@ -1,39 +1,41 @@
-
 .header-container {
 	background-color: white;
 	}
-.hello-mobile {
-	display: none;
-}
 .hello-messege {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.5rem;
 	display: inline-block;
 	color: #4A4A4A;
-	
-
+	font-size: 14px;
 }
 
-.hello-tablet {
+.pw-name {
+	font-size: 14px;
+}
+
+li {
+	font-size: 14px;
+}
+
+.hello-mobile {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.5rem;
 	display: block;
-	/*position: absolute;*/
 	color: #8a8989;
 	top: 12rem;
-	/*margin: 0 auto; */
-	/*width: auto;*/
 	text-align: center;
     position: inherit;
 }
-.tablet-rwd-info {
-	margin-left: 10rem;
-    margin-right: 10rem;
-    line-height: 2rem;
+.mobile-rwd-info {
+	font-size: 14px;
+	margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.8rem;
+    white-space: pre-line;
 }
 
 .visual-manifesto {
-	width: 30%;
+	width: 50%;
     height: auto;
     display: block;
     position: relative;
@@ -53,4 +55,3 @@
 footer {
 	display: none;
 }
-

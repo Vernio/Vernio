@@ -2,6 +2,8 @@ body {
 	margin: 0;
 }
 
+
+
 .header-container {
 	background-color: white;
 	height: 30rem;
@@ -15,10 +17,11 @@ body {
 }
 .visual-manifesto {
 	width: 30%;
-	height: auto;
-	position: absolute;
-	right: 26rem;
-	top: 13rem;
+    height: auto;
+    display: block;
+    position: relative;
+    top: 9rem;
+    margin: 0 auto;
 }
 .lightning:hover {
 	fill:#97EDEF;
@@ -33,6 +36,13 @@ body {
 	display: inline-block;
 	color: #4A4A4A;
 
+}
+
+.hello-tablet {
+	display: none;
+}
+.hello-mobile {
+	display: none;
 }
 .pw-name {
 	font-family: 'Lato', sans-serif;
@@ -59,6 +69,41 @@ li {
 	text-decoration: none;
 	padding: 1rem;
 }
+
+.linkedin {
+
+	font-family: 'Lato', sans-serif;
+	color: #68C1C3;
+	text-decoration: none;
+
+}
+
+  .tooltip {
+  	z-index: 1;
+    transition: top 5.5s ease;
+    /*top:174px;*/
+    position: absolute;
+    background: #68C1C3;
+    border-radius:4px;
+    padding: 6px 12px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    max-width: 200px;
+  }
+
+  .tooltip:before {
+    content : " ";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #68C1C3;
+    position:absolute;
+    bottom:-5px;
+    left:100px;
+
+  }
 
 /*section info style*/
 
@@ -101,9 +146,10 @@ li {
 }
 
 
-.timeline-content {
+.skills-content {
 	background-color: #68C1C3;
 	flex-basis: 40%;
+	display: flex;
 	flex-flow: row nowrap;
 	order: 2;
 }
@@ -115,22 +161,35 @@ li {
 	flex-basis: 60%;
 	
 }
-.timline-title-text {
+.skills-title-text {
 	font-family:'Lato', sans-serif;
 	color: #4A4A4A;
 	margin-top: 3.2rem;
 	margin-left: 3rem;
 
 }
-.timeline-text {
+.skills-text {
 	font-family:'Lato', sans-serif;
 	color: #4A4A4A;
+	line-height: 1.7rem;
+	padding-right: 9.5rem;
 	margin-top: 3rem;
 	margin-left: 3rem;
 	align-self: flex-start;
-	display: none;
+	
 }
 
+.product-design, .user-expirience, 
+.user-interface, .human-centered-design,
+.design-thinking, .workshops-facilitation,
+.agile-metodologhies, .project-managemant,
+.html-skills, .css-skills, .basic-js-understanding
+ {
+	position: relative; 
+    top: 2px;
+    padding-right: 6px;
+
+}
 
 .container-port {
 	background-color: #EBEBEB;
@@ -151,93 +210,156 @@ li {
 	margin-left: 9.5rem;
 
 }
+
+
 .codi-element-big {
+	position: relative;
 	flex-basis: 100%;
 	height: 28rem;
 	margin-top: 3rem;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
+	background-color: #1561BB;
 }
-.codi-element-big img {
-	width: 100%; 
-	height: auto;
-}
+
+
+
 .small-element {
+	position: relative;
 	height: 28rem;
 	margin-top: 3rem;
 	flex-basis: 30%;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
+	background-color: #32BE8B;
 	
-}
-.small-element img{
-	width: 100%; 
-	height: auto;
-}
-
-.medium-element img {
-	width: 100%; 
-	height: auto;
 }
 
 .medium-element {
-	background-color:#E1E1E1;
+	position: relative;
+	background-color:#19B1FA;
 	height: 28rem;
 	margin-top:3rem;
 	margin-left: 3rem;
 	flex-basis: 65%;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
 }
 .element-big-two {
-	/*background-color: #E1E1E1;*/
+	position: relative;
+	background-color: #172644;
 	flex-basis: 100%;
 	height: 28rem;
 	margin-top: 3rem;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
 }
 
-.element-big-two img {
+
+.element-big-auto {
+	position: relative;
+	background-color: #070205;
+	flex-basis: 100%;
+	height: 28rem;
+	margin-top: 3rem;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
+}
+
+.medium-element-two {
+	position: relative;
+	background-color:#F5C530;
+	height: 28rem;
+	margin-top:3rem;
+	flex-basis: 65%;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
+
+}
+
+.small-element-two {
+	position: relative;
+	background-color: #1FB7AE;
+	height: 28rem;
+	margin-top: 3rem;
+	flex-basis: 30%;
+	margin-left: 3rem;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
+}
+
+.element-big-tree {
+	position: relative;
+	background-color:#62DDC2;
+	flex-basis: 100%;
+	height: 28rem;
+	margin-top: 3rem;
+	font-family:'Lato', sans-serif;
+	overflow: hidden;
+	transition: all .4s ease;
+
+}
+
+
+/*Ilustration and links to info pages*/
+
+.small-element-tree {
+	/*background-color: #E1E1E1;*/
+	height: 28rem;
+	margin-top: 1rem;
+	flex-basis: 30%;
+	margin-right: 3rem;
+	margin-bottom: 3rem;
+}
+
+.small-element-tree img {
 	width: 100%; 
 	height: auto;
 
 }
-.medium-element-two {
-	background-color:#E1E1E1;
-	height: 28rem;
-	margin-top:3rem;
-	flex-basis: 65%;
 
+.proudct-design-illu-title, .design-wr-illu-title, .agile-methodologies-title {
+	position: relative;
+	top: -4rem;
+	font-family:'Lato', sans-serif;
+	text-align: center;
+	color: #8a8989;
 }
-.element-big-tree {
-	background-color:#E1E1E1;
-	flex-basis: 100%;
-	height: 28rem;
-	margin-top: 3rem;
 
-}
-.small-element-two {
-	background-color: #E1E1E1;
-	height: 28rem;
-	margin-top: 3rem;
-	flex-basis: 30%;
-	margin-left: 3rem;
-}
-.small-element-tree {
-	background-color: #E1E1E1;
-	height: 28rem;
-	margin-top: 3rem;
-	flex-basis: 30%;
-	margin-right: 3rem;
-	margin-bottom: 3rem;
-}
+
 .small-element-four {
-	background-color: #E1E1E1;
+	/*background-color: #E1E1E1;*/
 	height: 28rem;
-	margin-top: 3rem;
+	margin-top: 1rem;
 	flex-basis: 30%;
 	margin-right: 3rem;
 	margin-bottom: 3rem;
+}
+
+.small-element-four img {
+	width: 100%; 
+	height: auto;
+
 }
 .small-element-five {
-	background-color: #E1E1E1;
+	/*background-color: #E1E1E1;*/
 	height: 28rem;
-	margin-top: 3rem;
+	margin-top: 1rem;
 	flex-basis: 30%;
 	margin-bottom: 3rem;
+}
+
+.small-element-five img {
+	width: 100%; 
+	height: auto;
+
 }
 
 .codiscreenmain {
@@ -272,18 +394,18 @@ footer {
 	
 }
 
-.linkdin {
+.medium {
 	margin-top: 7rem;
-	margin-left: 34rem;
 	font-family:'Lato', sans-serif;
 	justify-content: flex-end;
 }
-.linkedin-a {
+.medium-a {
 	text-decoration: none;
 	color: white;
 }
 .dribble {
 	margin-top: 7rem;
+	margin-left: 32rem;
 	font-family:'Lato', sans-serif;
 }
 .dribble-a {

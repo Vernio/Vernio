@@ -114,14 +114,21 @@ li {
 
 
 .about-content {
-	display: flex;
-	flex-flow: row nowrap;
+	/*display: flex;
+	flex-flow: row nowrap;*/
 	flex-basis: 60%;
-	order: 1;
+	/*order: 1;*/
 	background-color: #F59678;
 }
 
+.about-content-frame {
+	display: flex;
+    flex-flow: row nowrap;
+    max-width: 82%;
+    order: 1;
+    margin-left: auto;
 
+}
 
 .about-title {
 	font-family:'Lato', sans-serif;
@@ -129,7 +136,6 @@ li {
 	font-size: 24px;
 	color: #4A4A4A;
 	margin-top: 3.2rem;
-	margin-left: 9.5rem;
 
 }
 
@@ -172,7 +178,7 @@ li {
 	font-family:'Lato', sans-serif;
 	color: #4A4A4A;
 	line-height: 1.7rem;
-	padding-right: 9.5rem;
+	padding-right: 7.5rem;
 	margin-top: 3rem;
 	margin-left: 3rem;
 	align-self: flex-start;
@@ -207,7 +213,6 @@ li {
 	color: #4A4A4A;
 	margin: 0;
 	padding-top: 3rem;
-	margin-left: 9.5rem;
 
 }
 
@@ -242,7 +247,7 @@ li {
 	background-color:#19B1FA;
 	height: 28rem;
 	margin-top:3rem;
-	margin-left: 3rem;
+	margin-left: auto;
 	flex-basis: 65%;
 	font-family:'Lato', sans-serif;
 	overflow: hidden;
@@ -289,7 +294,7 @@ li {
 	height: 28rem;
 	margin-top: 3rem;
 	flex-basis: 30%;
-	margin-left: 3rem;
+	margin-left: auto;
 	font-family:'Lato', sans-serif;
 	overflow: hidden;
 	transition: all .4s ease;
@@ -312,11 +317,9 @@ li {
 
 .small-element-tree {
 	/*background-color: #E1E1E1;*/
-	height: 28rem;
 	margin-top: 1rem;
 	flex-basis: 30%;
-	margin-right: 3rem;
-	margin-bottom: 3rem;
+	margin-right: auto;
 }
 
 .small-element-tree img {
@@ -336,11 +339,9 @@ li {
 
 .small-element-four {
 	/*background-color: #E1E1E1;*/
-	height: 28rem;
 	margin-top: 1rem;
 	flex-basis: 30%;
 	margin-right: 3rem;
-	margin-bottom: 3rem;
 }
 
 .small-element-four img {
@@ -350,10 +351,8 @@ li {
 }
 .small-element-five {
 	/*background-color: #E1E1E1;*/
-	height: 28rem;
 	margin-top: 1rem;
 	flex-basis: 30%;
-	margin-bottom: 3rem;
 }
 
 .small-element-five img {
@@ -396,6 +395,7 @@ footer {
 
 .medium {
 	margin-top: 7rem;
+	margin-left: 2rem;
 	font-family:'Lato', sans-serif;
 	justify-content: flex-end;
 }
@@ -405,7 +405,7 @@ footer {
 }
 .dribble {
 	margin-top: 7rem;
-	margin-left: 32rem;
+	margin-left: auto;
 	font-family:'Lato', sans-serif;
 }
 .dribble-a {
@@ -415,6 +415,7 @@ footer {
 .insta {
 	margin-top: 7rem;
 	margin-right: 10rem;
+	margin-left: 2rem;
 	font-family:'Lato', sans-serif;
 }
 .insta-a {

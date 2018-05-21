@@ -30,10 +30,13 @@ for blur filter */
 
 .codi-element-big-overlay::before {
   content: '';
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   background-image:url('.././img/codiscreenmain01.png');
-  background-size: cover;
+  background-size: cover; 
+  /*background-size:contain;*/
+  background-position:center;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   z-index: -10;
@@ -62,6 +65,8 @@ for blur filter */
   height: 100%;
   background-image:url('.././img/optionscreenmain01.png');
   background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   z-index: -10;
@@ -118,6 +123,8 @@ for blur filter */
   height: 100%;
   background-image:url('.././img/hmsscreenmain.png');
   background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   z-index: -10;
@@ -202,6 +209,8 @@ for blur filter */
   height: 100%;
   background-image:url('.././img/sheduleapp.png');
   background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   z-index: -10;
@@ -273,8 +282,8 @@ for blur filter */
 .auto-element-xl-overlay-description, .sail-element-l-overlay-description,
 .callendar-element-s-overlay-description, .home-payment-element-xl-overlay-description {
   position: relative;
-  top: -220px;
-  margin-bottom: 2rem;
+  top: -270px;
+  margin-bottom: 1.8rem;
   margin-top: 4rem;
   font-family: 'Lato', sans-serif;
   color: white;
@@ -286,13 +295,12 @@ for blur filter */
 
 }
 
-.codi-element-big-overlay-link, .options-element-s-overlay-link,
-.trade-element-l-overlay-link, .hms-element-xl-overlay-link,
-.auto-element-xl-overlay-link, .sail-element-l-overlay-link,
+.options-element-s-overlay-link,
+.trade-element-l-overlay-link,.sail-element-l-overlay-link,
 .callendar-element-s-overlay-link, .home-payment-element-xl-overlay-link {
   position: relative;
   display: block;
-  width: 40%;
+  width: 51%;
   top: 340px;
   padding: 10px;
   margin: 0 auto;
@@ -304,8 +312,32 @@ for blur filter */
   border: 2px solid white;
   border-radius: 50px;
   transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
-  display: none; /*disable to show links to case studies*/
+  display: none; disable to show links to case studies
 }
+
+
+.codi-element-big-overlay-link, .hms-element-xl-overlay-link,
+.auto-element-xl-overlay-link,.home-payment-element-xl-overlay-link {
+  position: relative;
+  display: block;
+  width: 30%;
+  top: 340px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+  display: none; disable to show links to case studies
+}
+
+
+
+
 
 /*CTA-link See Case Study Shadows*/
 

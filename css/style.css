@@ -181,6 +181,7 @@ li {
 	padding-right: 7.5rem;
 	margin-top: 3rem;
 	margin-left: 3rem;
+	margin-bottom: 3rem;
 	align-self: flex-start;
 	
 }
@@ -372,7 +373,7 @@ footer {
 	/*position: fixed;*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 100rem;
+	background-size: 105rem;
 
 	display: flex;
 	flex-flow: row nowrap;

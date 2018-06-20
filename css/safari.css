@@ -1,8 +1,7 @@
-
 /*Descktop*/
 
 @media screen 
-  and (min-device-width: 1024px) 
+  and (min-device-width: 1024px), 
   and (max-device-width: 1900px) 
  { 
 
@@ -570,13 +569,171 @@ for blur filter */
 
 /*Tablet Landscape*/
 
-
-
 @media screen 
-  and (min-device-width: 699px) 
-  and (max-device-width: 1023px) 
- { 
+  and (min-device-width: 699px), 
+  and (max-device-width: 1023px) { 
 
+/*Codility*/
+.codi-element-big:hover .codi-element-big-overlay-title {
+  top: 0;
+}
+.codi-element-big:hover .codi-element-big-overlay-link {
+  top: 100px;
+}
+.codi-element-big:hover .codi-element-big-overlay:after {
+  opacity: 0;
+}
+
+.codi-element-big:hover .codi-element-big-overlay-description {
+  top: 0px;
+}
+
+.codi-element-big-overlay:hover::before {
+  filter: none;
+}
+
+/*XOptions*/
+.small-element:hover .options-element-s-overlay-title {
+  top: 0;
+}
+.small-element:hover .options-element-s-overlay-link {
+  top: 100px;
+}
+.small-element:hover .options-element-s-overlay::after {
+  opacity: 0;
+}
+
+.small-element:hover .options-element-s-overlay-descriptions {
+  top: 0px;
+}
+
+.options-element-s-overlay:hover::before {
+  filter: none;
+}
+
+/*Tradebeat*/
+
+.medium-element:hover .trade-element-l-overlay-title {
+  top: 0;
+}
+.medium-element:hover .trade-element-l-overlay-link {
+  top: 100px;
+}
+.medium-element:hover .trade-element-l-overlay::after {
+  opacity: 0;
+}
+
+.medium-element:hover .trade-element-l-overlay-description {
+  top: 0px;
+}
+
+.trade-element-l-overlay:hover::before {
+  filter: none;
+}
+
+/*hms*/
+
+.element-big-two:hover .hms-element-xl-overlay-title {
+  top: 0;
+}
+
+.element-big-two:hover .hms-element-xl-overlay-description {
+  top: 0px;
+}
+
+.element-big-two:hover .hms-element-xl-overlay-link {
+  top: 100px;
+}
+.element-big-two:hover .hms-element-xl-overlay::after {
+  opacity: 0;
+}
+
+.hms-element-xl-overlay:hover::before {
+  filter: none;
+}
+
+/*auto*/
+
+.element-big-auto:hover .auto-element-xl-overlay-title {
+  top: 0;
+}
+
+.element-big-auto:hover .auto-element-xl-overlay-description {
+  top: 0px;
+}
+
+.element-big-auto:hover .auto-element-xl-overlay-link {
+  top: 100px;
+}
+.element-big-auto:hover .auto-element-xl-overlay::after {
+  opacity: 0;
+}
+
+.auto-element-xl-overlay:hover::before {
+  filter: none;
+}
+
+/*Sailing Aura*/
+.medium-element-two:hover .sail-element-l-overlay-title {
+  top: 0;
+}
+
+.medium-element-two:hover .sail-element-l-overlay-description {
+  top: 0px;
+}
+
+.medium-element-two:hover .sail-element-l-overlay-link {
+  top: 100px;
+}
+.medium-element-two:hover .sail-element-l-overlay::after {
+  opacity: 0;
+}
+
+.sail-element-l-overlay:hover::before {
+  filter: none;
+}
+
+/*Callendar*/
+
+.small-element-two:hover .callendar-element-s-overlay-title {
+  top: 0;
+}
+
+.small-element-two:hover .callendar-element-s-overlay-description {
+  top: 0px;
+}
+
+.small-element-two:hover .callendar-element-s-overlay-link {
+  top: 100px;
+}
+.small-element-two:hover .callendar-element-s-overlay::after {
+  opacity: 0;
+}
+
+.callendar-element-s-overlay:hover::before {
+  filter: none;
+}
+
+/*DPP*/
+
+.element-big-tree:hover .home-payment-element-xl-overlay-title {
+  top: 0;
+}
+
+.element-big-tree:hover .home-payment-element-xl-overlay-description {
+  top: 0px;
+}
+
+.element-big-tree:hover .home-payment-element-xl-overlay-link {
+  top: 100px;
+}
+.element-big-tree:hover .home-payment-element-xl-overlay::after {
+  opacity: 0;
+}
+
+.home-payment-element-xl-overlay:hover::before {
+  filter: none;
+}
 
 .codi-element-big-overlay, .options-element-s-overlay, 
 .trade-element-l-overlay, .hms-element-xl-overlay, 
@@ -962,9 +1119,6 @@ box-shadow: 0px 0px 53px -8px rgba(163,163,163,0.69);
 box-shadow: 0px 0px 53px -8px rgba(163,163,163,0.69);
   }
 
+/*Onhover positioning, opacity and blure on project boxes*/
 
 }
-
-
-
-

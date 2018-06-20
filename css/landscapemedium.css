@@ -1,10 +1,12 @@
 
 .header-container {
-	background-color: white;
+	height: 25rem;
 	}
+
 .hello-mobile {
 	display: none;
 }
+
 .hello-messege {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.5rem;
@@ -32,6 +34,36 @@
     line-height: 2rem;
 }
 
+.tooltip {
+	display: none;
+} 
+
+.info-container {
+	display: inline-block;
+}
+.about-content-frame {
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 89.5%;
+    order: 1;
+    margin-left: auto;
+}
+.skills-title-text {
+    font-family: 'Lato', sans-serif;
+    color: #4A4A4A;
+    margin-top: 3.2rem;
+    margin-left: 7rem;
+}
+.skills-text {
+    font-family: 'Lato', sans-serif;
+    color: #4A4A4A;
+    line-height: 1.7rem;
+    padding-right: 7.5rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    align-self: flex-start;
+}
 .visual-manifesto {
 	width: 30%;
     height: auto;
@@ -39,18 +71,74 @@
     position: relative;
     top: 9rem;
     margin: 0 auto;
-
+}
+.container-portfolio {
+    width: 79%;
+    margin: 0rem auto;
+    display: inherit;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
+.codi-element-big {
+ 	overflow: visible;
+}
+.small-element, .medium-element, .element-big-two, .element-big-auto, .medium-element-two,
+.small-element-two, .element-big-tree {
+	overflow: visible;
+	margin-top: 7rem;
+}
+
+
+.small-element-tree, .small-element-four,
+ .small-element-five {
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.small-element-tree img , .small-element-four img,
+.small-element-five img {
+    width: 20%;
+    height: auto;
+    flex-grow: 2;
+}
+
+.proudct-design-illu-title, .design-wr-illu-title, .agile-methodologies-title {
+    position: relative;
+     top: auto; 
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #8a8989;
+    flex-grow: 1;
+    margin-right: 4rem;
+}		
+
 .info {
-	display: none;
+	
 }
 
 .port {
-	display: none;
+	
 }
 
 footer {
-	display: none;
+	
+}
+.all-rights {
+
+    margin-left: 3.9rem;
+}
+.medium {
+    margin-top: 7rem;
+    margin-left: 1rem;
+    font-family: 'Lato', sans-serif;
+    justify-content: flex-end;
+}
+.insta {
+    
+    margin-right: 4rem;
+    margin-left: 1rem;
 }
 

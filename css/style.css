@@ -321,6 +321,7 @@ li {
 	margin-top: 1rem;
 	flex-basis: 30%;
 	margin-right: auto;
+	text-align: center;
 }
 
 .small-element-tree img {
@@ -331,7 +332,7 @@ li {
 
 .proudct-design-illu-title, .design-wr-illu-title, .agile-methodologies-title {
 	position: relative;
-	top: -4rem;
+	top: -3rem;
 	font-family:'Lato', sans-serif;
 	text-align: center;
 	color: #8a8989;
@@ -343,6 +344,7 @@ li {
 	margin-top: 1rem;
 	flex-basis: 30%;
 	margin-right: 3rem;
+	text-align: center;
 }
 
 .small-element-four img {
@@ -354,6 +356,7 @@ li {
 	/*background-color: #E1E1E1;*/
 	margin-top: 1rem;
 	flex-basis: 30%;
+	text-align: center;
 }
 
 .small-element-five img {

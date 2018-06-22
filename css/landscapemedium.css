@@ -232,13 +232,11 @@ li {
 }
 
 footer {
-    background-image: url(../img/stars.png);
+    background-image: url('../img/stars.png');
     height: 15rem;
-    /*position: fixed;*/
-    /*background-attachment: fixed;*/
     background-repeat: no-repeat;
     background-size: 105rem;
-
+    background-size: cover;
     display: flex;
     flex-flow: row nowrap;
     color: white;

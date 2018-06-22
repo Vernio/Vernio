@@ -235,7 +235,7 @@ footer {
     background-image: url(../img/stars.png);
     height: 15rem;
     /*position: fixed;*/
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-repeat: no-repeat;
     background-size: 105rem;
 

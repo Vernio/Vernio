@@ -451,7 +451,7 @@ for blur filter */
   background-image:url('.././img/codiscreenmain01.png');
   background-size: cover; 
   /*background-size:contain;*/
-  background-position:center;
+  background-position:left;
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
@@ -569,6 +569,7 @@ for blur filter */
   height: 100%;
   background-image:url('.././img/carcluster.png');
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   z-index: -10;
@@ -654,6 +655,7 @@ for blur filter */
   height: 100%;
   background-image:url('.././img/paymentmain01.png');
   background-size: cover;
+  background-position: right;
   position: absolute;
   top: 0;
   z-index: -10;

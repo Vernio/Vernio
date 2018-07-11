@@ -261,7 +261,7 @@ li {
     margin-right: auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: -10rem;
 }
 .small-element-tree img , .small-element-four img,
@@ -272,7 +272,7 @@ li {
 
 .proudct-design-illu-title, .design-wr-illu-title, .agile-methodologies-title {
     position: relative;
-     top: -7rem; 
+     top: -6rem; 
     font-family: 'Lato', sans-serif;
     text-align: center;
     color: #8a8989;
@@ -361,7 +361,8 @@ footer {
   z-index: 10;
   display: flex;
   align-items: center;
-  font-size: 0.8rem;
+  line-height: 2rem;
+  font-size: 1rem;
 }
 
 /*overlay color positioning at after and photo background on befor - like this

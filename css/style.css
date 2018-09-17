@@ -118,7 +118,7 @@ li {
 	flex-flow: row nowrap;*/
 	flex-basis: 60%;
 	/*order: 1;*/
-	background-color: #F59678;
+	background-color: #b9e4ff;
 }
 
 .about-content-frame {
@@ -460,7 +460,7 @@ footer {
 	/*position: fixed;*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 105rem;
+	background-size: 120rem;
 
 	display: flex;
 	flex-flow: row nowrap;

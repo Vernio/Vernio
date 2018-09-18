@@ -220,7 +220,7 @@ li {
 }
 .about-content {
     
-    background-color: #F59678;
+    background-color: #b9e4ff;
 }
 .about-content-frame {
     margin-left: 3rem;
@@ -372,7 +372,6 @@ footer {
     background-image: url('../img/stars.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    margin-top: 3rem;
     padding-top: 0.1rem;
     background-size: cover;
     color: white;

@@ -1,5 +1,6 @@
 body {
-	margin: 0;
+  display: block;
+  margin: 0;
 }
 
 
@@ -11,10 +12,10 @@ body {
 	margin: 3rem auto;
 	position: relative;
 }
-.hero-content {
+/* .hero-content { */
 	/*width: 70rem;
 	margin: 3rem auto;*/
-}
+/* } */
 .visual-manifesto {
 	width: 30%;
     height: auto;
@@ -219,7 +220,6 @@ li {
 
 
 .codi-element-big {
-	z-index: 12;
 	position: relative;
 	flex-basis: 100%;
 	height: 28rem;
@@ -227,12 +227,15 @@ li {
 	font-family:'Lato', sans-serif;
 	overflow: hidden;
 	transition: all .4s ease;
-	background-color: #1561BB;
+  background-color: #1561BB;
+  z-index: 12;
 }
 
 
 /*Modal Css */
 .modal {
+  transform: translate3d(0, 0, 0);
+  z-index: 11;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -241,7 +244,7 @@ li {
   height: 100%;
   overflow: auto;
   padding: 0 20px;
-  z-index: 12;
+  
 }
 
 .modal-inner {
@@ -253,6 +256,7 @@ li {
   padding: 20px;
   width: auto;
   position: relative;
+  z-index: 12;
 
 }
 
@@ -320,7 +324,7 @@ li {
 	margin-top: 3rem;
 	flex-basis: 30%;
 	font-family:'Lato', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	transition: all .4s ease;
 	background-color: #32BE8B;
 	
@@ -335,7 +339,7 @@ li {
 	margin-left: auto;
 	flex-basis: 65%;
 	font-family:'Lato', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	transition: all .4s ease;
 }
 .element-big-two {
@@ -357,7 +361,7 @@ li {
 	height: 28rem;
 	margin-top: 3rem;
 	font-family:'Lato', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	transition: all .4s ease;
 }
 
@@ -368,7 +372,7 @@ li {
 	margin-top:3rem;
 	flex-basis: 65%;
 	font-family:'Lato', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	transition: all .4s ease;
 
 }
@@ -381,7 +385,7 @@ li {
 	flex-basis: 30%;
 	margin-left: auto;
 	font-family:'Lato', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	transition: all .4s ease;
 }
 
@@ -392,7 +396,7 @@ li {
 	height: 28rem;
 	margin-top: 3rem;
 	font-family:'Lato', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	transition: all .4s ease;
 
 }
@@ -1076,7 +1080,7 @@ for blur filter */
 }
 
 
-}
+
 
 
 

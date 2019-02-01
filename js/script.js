@@ -71,6 +71,7 @@ let open = document.querySelectorAll('.open');
 function closeModal(e) {
   document.body.style.margin = '';
   document.body.style.overflow = '';
+  portCodi.style.overflow = 'hidden';
    modal.remove();
 
 };
@@ -85,6 +86,7 @@ function openModal(e, imgs) {
   modal = document.createElement('div');
   modal.classList.add('modal');
   portCodi.appendChild(modal);
+  portCodi.style.overflow = 'visible';
   modal.addEventListener('click', closeModal);
 
 

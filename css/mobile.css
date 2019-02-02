@@ -220,7 +220,7 @@ li {
 }
 .about-content {
     
-    background-color: #b9e4ff;
+    background-color: #ebebeb;
 }
 .about-content-frame {
     margin-left: 3rem;
@@ -244,7 +244,7 @@ li {
     margin-bottom: 0;
 }
 .skills-content {
-    background-color: #68C1C3;
+    background-color: #ebebeb;
     flex-basis: 40%;
     flex-flow: row nowrap;
     order: 2;

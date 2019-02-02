@@ -159,7 +159,7 @@ li {
     flex-flow: row nowrap;*/
     flex-basis: 60%;
     /*order: 1;*/
-    background-color: #b9e4ff;
+    background-color: #EBEBEB;
 }
 .about-content-frame {
     display: flex;
@@ -188,11 +188,12 @@ li {
     white-space: pre-line;
 }
 .skills-content {
-    background-color: #68C1C3;
+    background-color: #EBEBEB;
     flex-basis: 40%;
     display: flex;
     flex-flow: row nowrap;
     order: 2;
+    padding-top: 0;
 }
 .illu-about {
     
@@ -250,7 +251,7 @@ li {
     font-weight: 700;
     color: #4A4A4A;
     margin: 0;
-    padding-top: 3rem;
+    padding-top: 7rem;
 
 }
 .codi-element-big {
@@ -291,6 +292,7 @@ li {
     width: 20%;
     height: auto;
     flex-grow: 2;
+    padding: 0;
 }
 
 .proudct-design-illu-title, .design-wr-illu-title, .agile-methodologies-title {

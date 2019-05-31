@@ -162,6 +162,7 @@ li {
 
 .about-me {
   width: 100%;
+  right: -2em;
 }
 
 .aboutme:hover {

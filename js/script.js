@@ -51,7 +51,7 @@
        a.addEventListener('mouseover',createTip);
        a.addEventListener('mouseout',cancelTip);
      }
-    //  console.log(a);
+     console.log(a);
   } //END FOR
 
 
@@ -72,6 +72,7 @@ function closeModal(e) {
   document.body.style.margin = '';
   document.body.style.overflow = '';
   portCodi.style.overflow = 'hidden';
+  portCodi.style.zIndex = '20';
    modal.remove();
 
 };
@@ -87,6 +88,7 @@ function openModal(e, imgs) {
   modal.classList.add('modal');
   portCodi.appendChild(modal);
   portCodi.style.overflow = 'visible';
+  portCodi.style.zIndex = '60';
   modal.addEventListener('click', closeModal);
 
 
@@ -376,6 +378,19 @@ open[7].addEventListener('click', function(e){
   
   });
 
+// Hamburger menu trigger
+  
+let hamBtn = document.querySelector('#mobile-menu-icon');
+let mobileMenu = document.querySelector('.menu-mobile');
+
+
+hamBtn.addEventListener('click', function(e) {
+  hamBtn.classList.toggle('open');
+  mobileMenu.classList.toggle('open');
+  e.preventDefault();
+
+
+});
 
 
 

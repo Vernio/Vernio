@@ -2,62 +2,62 @@
 
 
 
-(function(){
-  function createTip(ev){
-  	const element = ev.target;
-    var title = this.title;
-    this.title = '';
-    this.setAttribute("tooltip", title);
+// (function(){
+//   function createTip(ev){
+//   	const element = ev.target;
+//     var title = this.title;
+//     this.title = '';
+//     this.setAttribute("tooltip", title);
 
-	var tooltipWrap = document.createElement("div"); //creates div
-    tooltipWrap.className = 'tooltip'; //adds class
-    tooltipWrap.appendChild(document.createTextNode(title)); //add the text node to the newly created div.
+// 	var tooltipWrap = document.createElement("div"); //creates div
+//     tooltipWrap.className = 'tooltip'; //adds class
+//     tooltipWrap.appendChild(document.createTextNode(title)); //add the text node to the newly created div.
 
-    var firstChild = document.body.firstChild;//gets the first elem after body
-    firstChild.parentNode.insertBefore(tooltipWrap, firstChild); //adds tt before elem
+//     var firstChild = document.body.firstChild;//gets the first elem after body
+//     firstChild.parentNode.insertBefore(tooltipWrap, firstChild); //adds tt before elem
 
-    var padding = 5;
-    var linkProps = this.getBoundingClientRect();
-    var tooltipProps = tooltipWrap.getBoundingClientRect();
+//     var padding = 5;
+//     var linkProps = this.getBoundingClientRect();
+//     var tooltipProps = tooltipWrap.getBoundingClientRect();
 
 
     
 
-    // console.log(tooltipProps.height);
+//     // console.log(tooltipProps.height);
 
-    const topPos = linkProps.top - (tooltipProps.height + padding) ;
-    const leftPos = linkProps.left + (linkProps.width - tooltipProps.width) / 2
-
-
-    // tooltipWrap.setAttribute('style','top:'+topPos+'px;'+'left:'+linkProps.left+'px;')
-    tooltipWrap.style.top = topPos + 'px';
-    tooltipWrap.style.left = leftPos + 'px';
-    // tooltipWrap.setAttribute('style','left:'+linkProps.left+'px;')
-
-  }
-  function cancelTip(ev){
-    var title = this.getAttribute("tooltip");
-    this.title = title;
-    this.removeAttribute("tooltip");
-    document.querySelector(".tooltip").remove();
-  }
+//     const topPos = linkProps.top - (tooltipProps.height + padding) ;
+//     const leftPos = linkProps.left + (linkProps.width - tooltipProps.width) / 2
 
 
+//     // tooltipWrap.setAttribute('style','top:'+topPos+'px;'+'left:'+linkProps.left+'px;')
+//     tooltipWrap.style.top = topPos + 'px';
+//     tooltipWrap.style.left = leftPos + 'px';
+//     // tooltipWrap.setAttribute('style','left:'+linkProps.left+'px;')
 
-  var links = document.links;
-  for(var i=0; i < links.length; i++){
-     var a = links[i];
-     if(a.title !== ''){
-       a.addEventListener('mouseover',createTip);
-       a.addEventListener('mouseout',cancelTip);
-     }
-     console.log(a);
-  } //END FOR
+//   }
+//   function cancelTip(ev){
+//     var title = this.getAttribute("tooltip");
+//     this.title = title;
+//     this.removeAttribute("tooltip");
+//     document.querySelector(".tooltip").remove();
+//   }
 
 
 
+//   var links = document.links;
+//   for(var i=0; i < links.length; i++){
+//      var a = links[i];
+//      if(a.title !== ''){
+//        a.addEventListener('mouseover',createTip);
+//        a.addEventListener('mouseout',cancelTip);
+//      }
+    //  console.log(a);
+  // } //END FOR
 
-})();//end iffy
+
+
+
+// })();//end iffy
 
 // MODALS 
 
@@ -65,6 +65,7 @@
 let modal;
 let modalInner;
 let portCodi = document.querySelector('.codi-element-big');
+let modalTitle;
 
 let open = document.querySelectorAll('.open');
 
@@ -101,10 +102,10 @@ function openModal(e, imgs) {
   closeBtn.textContent = 'x';
   modalInner.appendChild(closeBtn);
 
-  let modalTitle = document.createElement('h1');
-  modalTitle.classList.add('modal-h1');
-  modalTitle.textContent = 'Codility Dectop App';
-  modalInner.appendChild(modalTitle);
+  // let modalTitle = document.createElement('h1');
+  // modalTitle.classList.add('modal-h1');
+  // modalTitle.textContent = 'Codility Dectop App';
+  // modalInner.appendChild(modalTitle);
   
    window.addEventListener('keyup', function(e){
     if(e.keyCode == 27){
@@ -147,6 +148,13 @@ function thankYou() {
 
 open[0].addEventListener('click', function(e){
 
+  
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Codility Desktop App';
+  modalInner.appendChild(modalTitle);
+  }
 
   function showImgs() {
 
@@ -167,13 +175,22 @@ open[0].addEventListener('click', function(e){
 });
 
 }
-  openModal(),
+  openModal() ,
+  newTitle(),
   showImgs(),
   thankYou();
-  
+
+
   });
 
 open[1].addEventListener('click', function(e){
+
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'XOptions App';
+  modalInner.appendChild(modalTitle);
+  }
 
 
   function showImgs() {
@@ -196,6 +213,7 @@ open[1].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   
@@ -204,6 +222,12 @@ open[1].addEventListener('click', function(e){
 
 open[2].addEventListener('click', function(e){
 
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Tradebeat Marketnews Portal';
+  modalInner.appendChild(modalTitle);
+  }
 
   function showImgs() {
 
@@ -225,6 +249,7 @@ open[2].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   
@@ -233,6 +258,12 @@ open[2].addEventListener('click', function(e){
 
 open[3].addEventListener('click', function(e){
 
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Home Management System';
+  modalInner.appendChild(modalTitle);
+  }
 
   function showImgs() {
 
@@ -256,6 +287,7 @@ open[3].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   
@@ -263,6 +295,12 @@ open[3].addEventListener('click', function(e){
 
 open[4].addEventListener('click', function(e){
 
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Digital Car Cluster';
+  modalInner.appendChild(modalTitle);
+  }
 
   function showImgs() {
 
@@ -286,6 +324,7 @@ open[4].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   
@@ -294,6 +333,12 @@ open[4].addEventListener('click', function(e){
 
 open[5].addEventListener('click', function(e){
 
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Sailing Aura Wheather App';
+  modalInner.appendChild(modalTitle);
+  }
 
   function showImgs() {
 
@@ -315,6 +360,7 @@ open[5].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   
@@ -322,6 +368,13 @@ open[5].addEventListener('click', function(e){
 
 
 open[6].addEventListener('click', function(e){
+
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Callendar App';
+  modalInner.appendChild(modalTitle);
+  }
 
 
   function showImgs() {
@@ -345,12 +398,20 @@ open[6].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   
   });
 
 open[7].addEventListener('click', function(e){
+
+  function newTitle () {
+    let modalTitle = document.createElement('h1');
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = 'Home Payment System';
+  modalInner.appendChild(modalTitle);
+  }
 
 
   function showImgs() {
@@ -373,6 +434,7 @@ open[7].addEventListener('click', function(e){
 
 }
   openModal(),
+  newTitle(),
   showImgs(),
   thankYou();
   

@@ -5,6 +5,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #124041;
   
+  
 }
 
 ul {
@@ -59,33 +60,6 @@ ul {
 .logo-fill:hover {
   fill: #FF9863;
   transition: 0.1s;
-}
-
-.tooltip {
-  z-index: 1;
-  transition: top 5.5s ease;
-  /*top:174px;*/
-  position: absolute;
-  background: #68C1C3;
-  border-radius:4px;
-  padding: 6px 12px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  color: #ffffff;
-  max-width: 200px;
-}
-
-.tooltip:before {
-  content : " ";
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #68C1C3;
-  position:absolute;
-  bottom:-5px;
-  left:100px;
-
 }
 
 .customerdev {
@@ -162,10 +136,12 @@ li {
 
 .about-me {
   width: 100%;
-  right: -2em;
 }
 
 .aboutme:hover {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
   content: '';
   background-color: #F2F2F2 ;
   padding: 10px;
@@ -176,6 +152,8 @@ li {
 }
 .aboutme {
   background-color:'';
+  position: relative;
+  left: 0.9rem;
   padding: 10px;
   border-radius: 5%;
 	font-family: 'Lato', sans-serif;
@@ -543,13 +521,13 @@ footer {
 	text-decoration: none;
 	color: white;
 }
-.insta {
+.link {
 	margin-top: 7rem;
 	margin-right: 10rem;
 	margin-left: 2rem;
 	font-family:'Lato', sans-serif;
 }
-.insta-a {
+.link-a {
 	text-decoration: none;
 	color: white;
 

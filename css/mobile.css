@@ -125,12 +125,142 @@ ul, menu, dir {
 }
 
 .topbar {
-  display: flex;
-  width: 100%;
+  display: block;
+  width: 60%;
   font-size: 1rem;
   
 }
 
+.menu-wrap, .menu-about-me {
+  display: none;
+} 
+
+#mobile-menu-icon {
+  width: 37px;
+  height: 45px;
+  top: 3.6em;
+  left: 15.5em;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: default;
+  z-index: 21;
+  /* background-color: #124041; */
+}
+
+
+#mobile-menu-icon span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #124041;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#mobile-menu-icon span:nth-child(1) {
+  top: 0px;
+}
+
+#mobile-menu-icon span:nth-child(2),#mobile-menu-icon span:nth-child(3) {
+  top: 12px;
+}
+
+#mobile-menu-icon span:nth-child(4) {
+  top: 24px;
+}
+
+#mobile-menu-icon.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+
+}
+
+#mobile-menu-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+#mobile-menu-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: white;
+}
+
+#mobile-menu-icon.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.compact-menu {
+  top: 0;
+  display: initial;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 8em;
+  z-index: 50;
+  
+}
+
+.customerdev, .design-thinking-link, .productdev-link, .aboutme {
+  color: white;
+}
+
+.close-ham-trigger {
+  color: white;
+  text-decoration: none;
+  position: relative;
+    left: 13.5em;
+}
+
+
+.logo-wrap-mobile {
+  position: relative;
+  top: 3em;
+  left: 3.8em;
+  
+}
+
+.logo-wrap {
+  display: none;
+}
+
+.small-logo {
+  cursor: default;
+  top: 0em;
+  position: relative;
+}
+
+nav {
+    
+    font-family: 'Lato', sans-serif;
+    right: 0;
+    color: white;
+}
 
 menu {
   margin-block-start: 0;
@@ -158,6 +288,71 @@ li {
   background-color: #FF9863;
 }
 
+.ham-wrap {
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 21em;
+  height: 10%;
+  padding-left: 0px;
+  z-index: 21;
+}
+
+
+.menu-mobile {
+  visibility: hidden;
+  top: -12em;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 0px;
+  z-index: 20;
+  background-color: #124041;
+}
+
+.menu-mobile.open {
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 0px;
+  z-index: 20;
+  background-color: #124041;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.customerdev:hover, .design-thinking-link:hover, 
+.productdev-link:hover, .aboutme:hover {
+  content: '';
+  background-color: #124041 ;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.ham-menu-list {
+  position: relative;
+  top: 7em;
+  text-align: center;
+  
+}
+
+.about-me {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  display: block;
+  padding-left: 0px;
+  padding-right: 0px;
+  left: 0em;
+}
 
 
 .product-design, .user-expirience, 

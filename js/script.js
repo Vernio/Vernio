@@ -323,7 +323,7 @@ open[4].addEventListener('click', function(e){
 });
 
 }
-  openModal(),
+  openModal(), 
   newTitle(),
   showImgs(),
   thankYou();
@@ -451,8 +451,14 @@ hamBtn.addEventListener('click', function(e) {
   mobileMenu.classList.toggle('open');
   e.preventDefault();
 
-
 });
 
+ 
+
+
+
+
+
+ 
 
 

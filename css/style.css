@@ -153,7 +153,7 @@ li {
 .aboutme {
   background-color:'';
   position: relative;
-  left: 0.9rem;
+  /* left: 0.9rem; */
   padding: 10px;
   border-radius: 5%;
 	font-family: 'Lato', sans-serif;

@@ -171,7 +171,6 @@ body {
   
   .mid-hero {
     display: flex;
-    position: relative;
     top: -5rem;
   }
 
@@ -205,7 +204,7 @@ body {
   .flow-illu {
     width: 83%;
     position: relative;
-    top: 17rem;
+    top: 9rem;
     left: 5em;
   }
 

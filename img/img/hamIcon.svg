@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="15px" viewBox="0 0 34 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Tablet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Copy-3" transform="translate(-255.000000, -47.000000)" fill="#124041">
+            <g id="Group-4" transform="translate(255.000000, 47.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.000000)">
+                    <path d="M1.5,1.70974346e-14 L32.5,1.70974346e-14 C33.3284271,1.6945255e-14 34,0.671572875 34,1.5 L34,1.5 C34,2.32842712 33.3284271,3 32.5,3 L1.5,3 C0.671572875,3 1.35770707e-13,2.32842712 1.35669254e-13,1.5 L1.3500312e-13,1.5 C1.34901667e-13,0.671572875 0.671572875,1.72496142e-14 1.5,1.70974346e-14 Z" id="Rectangle"></path>
+                    <path d="M1.5,6 L32.5,6 C33.3284271,6 34,6.67157288 34,7.5 L34,7.5 C34,8.32842712 33.3284271,9 32.5,9 L1.5,9 C0.671572875,9 1.35770707e-13,8.32842712 1.35669254e-13,7.5 L1.3500312e-13,7.5 C1.34901667e-13,6.67157288 0.671572875,6 1.5,6 Z" id="Rectangle"></path>
+                    <path d="M1.5,12 L32.5,12 C33.3284271,12 34,12.6715729 34,13.5 L34,13.5 C34,14.3284271 33.3284271,15 32.5,15 L1.5,15 C0.671572875,15 7.67586877e-16,14.3284271 6.66133815e-16,13.5 L0,13.5 C-1.01453063e-16,12.6715729 0.671572875,12 1.5,12 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

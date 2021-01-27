@@ -54,7 +54,7 @@ body {
     display: flex;
     position: relative;
     width: 100%;
-    /* justify-content: center; */
+    justify-content: flex-end;
     
   }
   
@@ -67,7 +67,7 @@ body {
     transition: 0.1s;
   }
   
-  .customerdev {
+  .portfolio-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -78,17 +78,17 @@ body {
     cursor: default;
   }
   
-  .customerdev:hover {
+  .portfolio-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .customerdev:active {
+  .portfolio-link:active {
     background-color: #E4E4E4;
   }
   
-  .design-thinking-link {
+  .process-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -99,17 +99,18 @@ body {
     cursor: default;
   }
   
-  .design-thinking-link:hover {
+  .process-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .design-thinking-link:active {
+  .process-link:active {
     background-color: #E4E4E4;
   }
   
-  .productdev-link {
+  .aboutme-link {
+    background-color: #E4E4E4;
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -120,13 +121,13 @@ body {
     cursor: default;
   }
   
-  .productdev-link:hover {
+  .aboutme-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .productdev-link:active {
+  .aboutme-link:active {
     background-color: #E4E4E4;
   }
   
@@ -139,7 +140,7 @@ body {
     margin: 0;
   }
   
-  .about-me {
+  /* .about-me {
     position: relative;
     top: 0.5rem;
     left: -0.2rem;
@@ -147,7 +148,7 @@ body {
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
-  }
+  } */
   
   /* .aboutme:hover {
     content: '';
@@ -429,6 +430,7 @@ margin-top: 10%;
 }
 
 .skills-badge {
+padding: 8px;
 position: relative;
 top: 4%;
 left: 4%;
@@ -452,7 +454,6 @@ box-shadow:  -8px -8px 20px -9px rgba(255,255,255,1),
 
 .skills-icon {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 100%;
 }

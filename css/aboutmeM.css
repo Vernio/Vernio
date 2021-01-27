@@ -28,23 +28,25 @@ body {
   
   .header-container {
       height: 30rem;
-      width: 90%;
+      width: 79%;
       margin: 3rem auto;
     position: relative;
     
   }
   
   .topbar {
-    padding: 0.8rem;
     display: flex;
     width: 100%;
     height: 10%;
     justify-content: space-between;
     font-family: 'Lato:700', sans-serif;
-    font-size: 1rem;
-      right: 0;
-      color: #124041
+    font-size: .8rem;
+    right: 0;
+    color: #124041
   }
+
+
+
   .compact-menu{
     display: none;
   }
@@ -55,7 +57,7 @@ body {
     display: flex;
     position: relative;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
     
   }
   
@@ -68,7 +70,7 @@ body {
     transition: 0.1s;
   }
   
-  .customerdev {
+  .portfolio-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -79,17 +81,17 @@ body {
     cursor: default;
   }
   
-  .customerdev:hover {
+  .portfolio-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .customerdev:active {
+  .portfolio-link:active {
     background-color: #E4E4E4;
   }
   
-  .design-thinking-link {
+  .process-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -100,17 +102,17 @@ body {
     cursor: default;
   }
   
-  .design-thinking-link:hover {
+  .process-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .design-thinking-link:active {
+  .process-link:active {
     background-color: #E4E4E4;
   }
   
-  .productdev-link {
+  .aboutme-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -121,13 +123,13 @@ body {
     cursor: default;
   }
   
-  .productdev-link:hover {
+  .aboutme-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .productdev-link:active {
+  .aboutme-link:active {
     background-color: #E4E4E4;
   }
   
@@ -140,13 +142,13 @@ body {
     margin: 0;
   }
   
-  .about-me {
+  /* .about-me { */
     /* width: 100%; */
-    left: -0.2rem;
+    /* left: -0.2rem;
     background-color: #F2F2F2 ;
     padding: 10px;
-    border-radius: 5%;
-  }
+    border-radius: 5%; */
+  /* } */
   
   /* .aboutme:hover {
     content: '';
@@ -171,7 +173,8 @@ body {
   
   .mid-hero {
     display: flex;
-    top: -5rem;
+    position: relative;
+    top: -1rem;
   }
 
   .left-hero {
@@ -184,8 +187,8 @@ body {
   
     .introduction {
         font-weight: 900;
-        font-size: 3rem;
-        top: 3.5rem;
+        font-size: 2rem;
+        top: 5.5rem;
         position: relative;
     }
   
@@ -204,7 +207,7 @@ body {
   .flow-illu {
     width: 83%;
     position: relative;
-    top: 9rem;
+    top: 11rem;
     left: 5em;
   }
 

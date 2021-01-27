@@ -67,7 +67,7 @@ body {
     transition: 0.1s;
   }
   
-  .customerdev {
+  .portfolio-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -78,17 +78,17 @@ body {
     cursor: default;
   }
   
-  .customerdev:hover {
+  .portfolio-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .customerdev:active {
+  .portfolio-link:active {
     background-color: #E4E4E4;
   }
   
-  .design-thinking-link {
+  .process-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -99,17 +99,17 @@ body {
     cursor: default;
   }
   
-  .design-thinking-link:hover {
+  .process-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .design-thinking-link:active {
+  .process-link:active {
     background-color: #E4E4E4;
   }
   
-  .productdev-link {
+  .aboutme-link {
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -120,13 +120,13 @@ body {
     cursor: default;
   }
   
-  .productdev-link:hover {
+  .aboutme-link:hover {
     content: '';
     background-color: #F2F2F2 ;
     padding: 10px;
     border-radius: 5%;
   }
-  .productdev-link:active {
+  .aboutme-link:active {
     background-color: #E4E4E4;
   }
   
@@ -157,6 +157,8 @@ body {
     background-color: #E4E4E4;
   }
   .aboutme {
+    position: relative;
+    left: 0.9rem;
     background-color:'';
     padding: 10px;
     border-radius: 5%;
@@ -430,16 +432,40 @@ body {
     
   }
   
+  .portfolio {
+    position: relative;
+    left: 0.9rem;
+    padding: 10px;
+    border-radius: 5%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    cursor: default;
+    width: 20%;
+  }
+  
+  .process {
+    position: relative;
+    left: 0.9rem;
+    padding: 10px;
+    border-radius: 5%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    cursor: default;
+    width: 20%;
+  }
+  
   .about-me {
     position: relative;
     margin: 0;
     padding: 1rem;
-    width: 100%;
     display: block;
     padding-left: 0px;
     padding-right: 0px;
     left: 0em;
-    background-color: transparent;
   }
   
   .mid-hero {
@@ -470,7 +496,7 @@ body {
   }
   
   .see-act-illu  {
-    top: -3rem;
+    top: 1em;
     width: 75%;
     position: relative;
   }

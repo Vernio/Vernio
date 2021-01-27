@@ -137,10 +137,137 @@ li {
     padding: 1rem;
 }
 
-.about-me {
-  position: relative;
+.portfolio-link {
+  background-color: #E4E4E4;
+  background-color:'';
+  padding: 10px;
+  border-radius: 5%;
+	font-family: 'Lato', sans-serif;
+	color: #124041;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  cursor: default;
+}
+
+.portfolio-link:hover {
+  content: '';
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 5%;
+}
+.portfolio-link:active {
+  background-color: #E4E4E4;
+}
+
+.process {
+  background-color:'';
+  padding: 10px;
+  border-radius: 5%;
+	font-family: 'Lato', sans-serif;
+	color: #124041;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  cursor: default;
+}
+
+.process:hover {
+  content: '';
+  background-color: #F2F2F2 ;
+  padding: 10px;
+  border-radius: 5%;
+}
+.process:active {
+  background-color: #E4E4E4;
+}
+
+.aboutme-link {
+  background-color:'';
+  padding: 10px;
+  border-radius: 5%;
+	font-family: 'Lato', sans-serif;
+	color: #124041;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  cursor: default;
+}
+
+.aboutme-link:hover {
+  content: '';
+  background-color: #F2F2F2 ;
+  padding: 10px;
+  border-radius: 5%;
+}
+.aboutme-link:active {
+  background-color: #E4E4E4;
+}
+
+
+li {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+  padding: 1rem;
   margin: 0;
+}
+
+.process-me {
   width: 100%;
+}
+
+.aboutme:hover {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  content: '';
+  background-color: #F2F2F2 ;
+  padding: 10px;
+  border-radius: 5%;
+}
+.aboutme:active {
+  background-color: #E4E4E4;
+}
+.aboutme {
+  background-color:'';
+  position: relative;
+  left: 0.9rem;
+  padding: 10px;
+  border-radius: 5%;
+	font-family: 'Lato', sans-serif;
+	color: #124041;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  cursor: default;
+  width: 20%;
+}
+
+.about-me {
+  width: 100%;
+}
+
+.aboutme:hover {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  content: '';
+  background-color: #F2F2F2 ;
+  padding: 10px;
+  border-radius: 5%;
+}
+.aboutme:active {
+  background-color: #E4E4E4;
+}
+.aboutme {
+  background-color:'';
+  position: relative;
+  left: 0.9rem;
+  padding: 10px;
+  border-radius: 5%;
+	font-family: 'Lato', sans-serif;
+	color: #124041;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  cursor: default;
+  width: 20%;
 }
 .product-design, .user-expirience, 
 .user-interface, .human-centered-design,
